@@ -1,0 +1,35 @@
+{
+  "dependencies": [
+    {
+      "name": "vk-bootstrap",
+      "url": "https://github.com/charles-lunarg/vk-bootstrap.git",
+      "tag": "main",
+      "cmake": true
+    },
+    {
+      "name": "glm",
+      "url": "https://github.com/g-truc/glm.git",
+      "tag": "0.9.9.8",
+      "cmake": true
+    },
+    {
+      "name": "glfw",
+      "url": "https://github.com/glfw/glfw.git",
+      "tag": "3.3.8",
+      "cmake": true
+    },
+    {
+      "name": "imgui",
+      "url": "https://github.com/ocornut/imgui.git",
+      "tag": "v1.90.4",
+      "cmake": true
+    },
+    {
+      "name": "cgltf",
+      "url": "https://github.com/jkuhlmann/cgltf.git",
+      "tag": "v1.13",
+      "cmake": false,
+      "header_only": true
+    }
+  ]
+}
